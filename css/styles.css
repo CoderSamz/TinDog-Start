@@ -27,6 +27,16 @@ p {
     padding: 7% 15%;
 }
 
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
 /* Navigation Bar */
 .navbar {
     padding: 0 0 4.5rem;
@@ -54,15 +64,9 @@ p {
 }
 
 /* Title Section */
-
-#title {
-    background-color: #ff4c68;
-    color: white;
-    text-align: left;
-}
-
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /* Title Image */
@@ -79,7 +83,7 @@ p {
 
 /* Features Section */
 #features {
-    background-color: #fff;
+    
     position: relative;
 }
 
@@ -100,7 +104,6 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .feature-title {
@@ -144,10 +147,10 @@ p {
 }
 
 /* CTA Section */
-#cta {
+/* #cta {
     background-color: #ff4c68;
     color: #fff;
-}
+} */
 
 /* .cta-heading {
     font-family: 'Montserrat', sans-serif;
@@ -157,9 +160,9 @@ p {
 } */
 
 /* Footer Section */
-#footer {
+/* #footer {
     background-color: #fff;
-}
+} */
 
 .social-icon {
     margin: 20px 10px;
